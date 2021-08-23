@@ -1,0 +1,6 @@
+framework module KSAdSDK_iOS {
+  umbrella header "KSAdSDK_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

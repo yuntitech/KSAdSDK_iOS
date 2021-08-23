@@ -1,0 +1,25 @@
+{
+  "name": "KSAdSDK_iOS",
+  "version": "0.1.0",
+  "summary": "KSAdSDK for iOS",
+  "description": "KSAdSDK for iOS",
+  "homepage": "https://github.com/yuntitech/KSAdSDK_iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cenfeng": "leejunhui2015@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yuntitech/KSAdSDK_iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": "KSAdSDK_iOS/KSAdSDK.framework"
+}

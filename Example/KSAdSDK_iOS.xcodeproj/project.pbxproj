@@ -129,7 +129,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				4FB398B262E5EBC74FD021A6 /* [CP] Embed Pods Frameworks */,
+				1BECC601D32EEB2C58C58B06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,18 +185,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4FB398B262E5EBC74FD021A6 /* [CP] Embed Pods Frameworks */ = {
+		1BECC601D32EEB2C58C58B06 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KSAdSDK_iOS_Tests/Pods-KSAdSDK_iOS_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KSAdSDK_iOS/KSAdSDK_iOS.framework",
+				"${PODS_ROOT}/../../KSAdSDK_iOS/KSAdSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
