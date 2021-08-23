@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KSAdSDK_iOS_Tests' do
+  pod 'KSAdSDK_iOS', :path => '../'
+  
+  
+end
